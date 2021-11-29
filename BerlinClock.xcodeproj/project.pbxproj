@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1B0D322750B5FC00A56098 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D312750B5FC00A56098 /* MainView.swift */; };
+		6D1B0D342750B81600A56098 /* FiveHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D332750B81600A56098 /* FiveHourView.swift */; };
+		6D1B0D362750B87A00A56098 /* SingleHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D352750B87A00A56098 /* SingleHourView.swift */; };
+		6D1B0D382750B88500A56098 /* FiveMinuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D372750B88500A56098 /* FiveMinuteView.swift */; };
+		6D1B0D3A2750B88E00A56098 /* SingleMinuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D392750B88E00A56098 /* SingleMinuteView.swift */; };
+		6D1B0D3C2750B89900A56098 /* SecondsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D3B2750B89900A56098 /* SecondsView.swift */; };
+		6D1B0D3E2750EC8B00A56098 /* TimePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0D3D2750EC8B00A56098 /* TimePickers.swift */; };
+		6D4339632748D4FF0009FECC /* BerlinCLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4339622748D4FF0009FECC /* BerlinCLockView.swift */; };
+		6D4339652749062C0009FECC /* TimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4339642749062C0009FECC /* TimeConverter.swift */; };
 		6DC88A282746A45D00A35ECD /* BerlinClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC88A272746A45D00A35ECD /* BerlinClockApp.swift */; };
 		6DC88A2A2746A45D00A35ECD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC88A292746A45D00A35ECD /* ContentView.swift */; };
 		6DC88A2C2746A46300A35ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC88A2B2746A46300A35ECD /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D1B0D312750B5FC00A56098 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6D1B0D332750B81600A56098 /* FiveHourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveHourView.swift; sourceTree = "<group>"; };
+		6D1B0D352750B87A00A56098 /* SingleHourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleHourView.swift; sourceTree = "<group>"; };
+		6D1B0D372750B88500A56098 /* FiveMinuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveMinuteView.swift; sourceTree = "<group>"; };
+		6D1B0D392750B88E00A56098 /* SingleMinuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMinuteView.swift; sourceTree = "<group>"; };
+		6D1B0D3B2750B89900A56098 /* SecondsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondsView.swift; sourceTree = "<group>"; };
+		6D1B0D3D2750EC8B00A56098 /* TimePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickers.swift; sourceTree = "<group>"; };
+		6D4339622748D4FF0009FECC /* BerlinCLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerlinCLockView.swift; sourceTree = "<group>"; };
+		6D4339642749062C0009FECC /* TimeConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConverter.swift; sourceTree = "<group>"; };
 		6DC88A242746A45D00A35ECD /* BerlinClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerlinClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC88A272746A45D00A35ECD /* BerlinClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerlinClockApp.swift; sourceTree = "<group>"; };
 		6DC88A292746A45D00A35ECD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +71,17 @@
 			children = (
 				6DC88A272746A45D00A35ECD /* BerlinClockApp.swift */,
 				6DC88A292746A45D00A35ECD /* ContentView.swift */,
+				6D4339622748D4FF0009FECC /* BerlinCLockView.swift */,
+				6D1B0D312750B5FC00A56098 /* MainView.swift */,
 				6DC88A2B2746A46300A35ECD /* Assets.xcassets */,
 				6DC88A2D2746A46300A35ECD /* Preview Content */,
+				6D4339642749062C0009FECC /* TimeConverter.swift */,
+				6D1B0D332750B81600A56098 /* FiveHourView.swift */,
+				6D1B0D352750B87A00A56098 /* SingleHourView.swift */,
+				6D1B0D372750B88500A56098 /* FiveMinuteView.swift */,
+				6D1B0D392750B88E00A56098 /* SingleMinuteView.swift */,
+				6D1B0D3B2750B89900A56098 /* SecondsView.swift */,
+				6D1B0D3D2750EC8B00A56098 /* TimePickers.swift */,
 			);
 			path = BerlinClock;
 			sourceTree = "<group>";
@@ -138,7 +165,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC88A2A2746A45D00A35ECD /* ContentView.swift in Sources */,
+				6D4339652749062C0009FECC /* TimeConverter.swift in Sources */,
+				6D1B0D362750B87A00A56098 /* SingleHourView.swift in Sources */,
 				6DC88A282746A45D00A35ECD /* BerlinClockApp.swift in Sources */,
+				6D1B0D322750B5FC00A56098 /* MainView.swift in Sources */,
+				6D1B0D342750B81600A56098 /* FiveHourView.swift in Sources */,
+				6D1B0D3C2750B89900A56098 /* SecondsView.swift in Sources */,
+				6D1B0D3A2750B88E00A56098 /* SingleMinuteView.swift in Sources */,
+				6D1B0D382750B88500A56098 /* FiveMinuteView.swift in Sources */,
+				6D4339632748D4FF0009FECC /* BerlinCLockView.swift in Sources */,
+				6D1B0D3E2750EC8B00A56098 /* TimePickers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
